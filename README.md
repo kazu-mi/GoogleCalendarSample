@@ -29,6 +29,9 @@ return context.getContentResolver().insert(CalendarContract.Events.CONTENT_URI, 
 Eventsの項目: https://developer.android.com/reference/android/provider/CalendarContract.Events.html
 
 ## 注意
+
 端末内のカレンダー更新のため、すぐにクラウド上に反映されない。
+
 →カレンダーアプリを開けば設定によっては反映。
+
 クラウドに即時反映する必要があるならば、Google Calendar APIを使用する必要あり。
